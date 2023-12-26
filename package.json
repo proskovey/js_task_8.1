@@ -1,0 +1,37 @@
+{
+  "name": "ajs11-task8-1",
+  "version": "1.0.0",
+  "description": "Task 8-1",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint .",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Svetlana-Arkhipova/ajs11-task8-1.git"
+  },
+  "author": "Svetlana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Svetlana-Arkhipova/ajs11-task8-1/issues"
+  },
+  "homepage": "https://github.com/Svetlana-Arkhipova/ajs11-task8-1#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-jest": "^26.6.3",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.17.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "jest": "^26.6.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^4.3.1"
+  },
+  "dependencies": {
+    "core-js": "^3.8.2"
+  }
+}
